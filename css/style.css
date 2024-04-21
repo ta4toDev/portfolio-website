@@ -70,6 +70,10 @@ img {
   display: block;
 }
 
+.logo{
+  color: var(--first-color);
+}
+
 /*===== CLASS CSS ===== */
 .section-title {
   position: relative;
@@ -156,6 +160,12 @@ img {
 .nav__logo {
   color: var(--second-color);
 }
+
+.nav__logo:hover {
+  font-size: 1.5em;
+  text-decoration: underline;
+}
+
 .nav__toggle {
   color: var(--second-color);
   font-size: 1.5rem;
