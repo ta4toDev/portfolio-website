@@ -259,8 +259,12 @@ img {
   width: 200px;
   border-radius: 0.5rem;
 }
-.profil__text {
+.profil__link {
   color: var(--first-color);
+  font-weight: var(--font-semi);
+}
+.profil__link:hover {
+  text-decoration: underline;
 }
 
 /* ===== SKILLS =====*/
